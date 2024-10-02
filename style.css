@@ -90,3 +90,30 @@ button:hover {
 #toggle-answer-btn {
     margin-top: 5px;
 }
+
+.morse-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.morse-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.morse-item button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.morse-table {
+    max-width: 900px; /* Adjust based on preference */
+    margin: 0 auto; /* Center the grid */
+}
