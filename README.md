@@ -2,6 +2,10 @@
 
 This project is a web application designed to help users learn and practice Morse code. It provides an intuitive and interactive interface to translate text to Morse code and vice versa, as well as a practice mode to listen to Morse code audio and improve proficiency.
 
+## GitHub Pages Link
+
+To try it out for yourself go to: https://baron242.github.io/Morse-Code-Learning-Tool/ 
+
 ## Features
 
 - **Text to Morse Code Translation**: Input text and get the corresponding Morse code.
@@ -42,3 +46,5 @@ This project is a web application designed to help users learn and practice Mors
 
 ## Contributing
 Feel free to fork the project, submit pull requests, or open issues for any bugs or feature requests.
+
+![morse code app pic](https://github.com/user-attachments/assets/5698b3f7-3c2e-4ca3-bb1a-6fa89253cae3)
