@@ -117,3 +117,35 @@ button:hover {
     max-width: 900px; /* Adjust based on preference */
     margin: 0 auto; /* Center the grid */
 }
+
+body {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    min-height: 100vh;        /* Make sure the body takes the full height of the viewport */
+    margin: 0;                /* Remove any default margin */
+    flex-direction: column;   /* Align content vertically */
+}
+
+/* Style for the images section */
+.images-section {
+    display: flex;
+    justify-content: center; /* Centers images horizontally within the container */
+    align-items: center;     /* Centers images vertically */
+    gap: 20px;               /* Space between the images */
+    margin: 5px 0;          /* Optional: Add some margin above and below the section */
+}
+
+/* Image size */
+img {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#scouts-logo {
+    width: 150px; /* Adjust size */
+}
+
+#jota-logo {
+    width: 150px; /* Adjust size */
+}
